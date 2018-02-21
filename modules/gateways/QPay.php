@@ -17,17 +17,6 @@ function QPay_MetaData() {
 
 function QPay_config() {
 	
-	// NeWorld Manager 开始
-	try {
-	    // 实例化模块类
-	    $addons = new NeWorld\Addons('QPay');
-	
-	    // 授权返回内容（一个数组，包含有 code/time/info 三个键，分别代表“额外代码”、“验证时间”、“授权信息”）
-	    $addons = $_SESSION['NeWorld'][$addons->license];
-	
-	    // 返回信息
-	// NeWorld Manager 结束
-	
     $configarray = [
     	"FriendlyName" => [
     		"Type" => "System",
@@ -51,18 +40,7 @@ function QPay_config() {
 			"Description" => "单位：秒 支付状态检查间隔",
 		],
     ];
-		
-	// NeWorld Manager 开始
-	}
-	catch (Exception $e) {
-	    // 返回信息
-		$configarray['license'] = [
-			'FriendlyName' => '授权失败',
-			'Type' => 'na',
-			'Description' => $e->getMessage()
-		];
-	}
-	// NeWorld Manager 结束
+	
 	
 	return $configarray;
 }
