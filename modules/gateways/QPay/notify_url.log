@@ -1,0 +1,10 @@
+执行日期：2017-03-30-13：21：15
+【接收到的notify通知】:
+<?xml version="1.0" encoding="UTF-8" ?><xml><attach><![CDATA[22553]]></attach><bank_type><![CDATA[BALANCE]]></bank_type><cash_fee><![CDATA[1]]></cash_fee><fee_type><![CDATA[CNY]]></fee_type><mch_id><![CDATA[1453105301]]></mch_id><nonce_str><![CDATA[40bcabdd1140c277d65a28df947801f8]]></nonce_str><out_trade_no><![CDATA[22553]]></out_trade_no><sign><![CDATA[506E1D95DA0C09B7A0282FE6F9785649]]></sign><time_end><![CDATA[20170330132115]]></time_end><total_fee><![CDATA[1]]></total_fee><trade_state><![CDATA[SUCCESS]]></trade_state><trade_type><![CDATA[APP]]></trade_type><transaction_id><![CDATA[14531053016012201703301749622447]]></transaction_id></xml>Array
+
+
+执行日期：2017-03-30-13：21：15
+【支付成功】:
+<?xml version="1.0" encoding="UTF-8" ?><xml><attach><![CDATA[22553]]></attach><bank_type><![CDATA[BALANCE]]></bank_type><cash_fee><![CDATA[1]]></cash_fee><fee_type><![CDATA[CNY]]></fee_type><mch_id><![CDATA[1453105301]]></mch_id><nonce_str><![CDATA[40bcabdd1140c277d65a28df947801f8]]></nonce_str><out_trade_no><![CDATA[22553]]></out_trade_no><sign><![CDATA[506E1D95DA0C09B7A0282FE6F9785649]]></sign><time_end><![CDATA[20170330132115]]></time_end><total_fee><![CDATA[1]]></total_fee><trade_state><![CDATA[SUCCESS]]></trade_state><trade_type><![CDATA[APP]]></trade_type><transaction_id><![CDATA[14531053016012201703301749622447]]></transaction_id></xml>
+
+
